@@ -1,0 +1,6 @@
+p=float(input("Enter the loan amount : "))
+i=float(input("Enter the Rate of Interest : "))
+n=int(input("Enter the  no of Months : "))
+r=i/(12*100)
+a=p * r * ((1+r)**n)/((1+r)**n-1)
+print("Emi amount is : " , a)
